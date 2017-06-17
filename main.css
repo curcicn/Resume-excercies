@@ -1,0 +1,60 @@
+div {
+  background-color: azure;
+      border: 1px solid aquamarine;
+  padding: 30px;
+}
+#lista{
+  display:inline-block;
+  padding:5px;
+  background-color: blue;
+  color: black;
+}
+#velikalista{
+  background-color: blue;
+  height: 50px;
+  padding: 0px;
+}
+header{
+  border: none;
+}
+div{
+  border: none;
+}
+aside{
+  float: right;
+  max-width: 25%;
+    margin-bottom: 20px;
+  padding:15px;
+
+
+}
+article{
+float: left;
+max-width: 70%;
+  padding: 15px;
+  margin-bottom:30px;
+
+}
+article, aside{
+    clear: bottom;
+
+}
+
+
+ footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+       clear: left;
+       clear: right;
+
+    text-align: center;
+}
+
+    footer:hover{
+background-color: yellow;
+    }
+
+#educationlist{
+	 list-style-type: none;
+}
