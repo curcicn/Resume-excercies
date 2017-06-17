@@ -8,6 +8,12 @@ div {
   padding:5px;
   background-color: blue;
   color: black;
+  -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
 }
 #velikalista{
   background-color: blue;
